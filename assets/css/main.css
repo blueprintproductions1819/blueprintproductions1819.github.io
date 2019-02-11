@@ -116,12 +116,22 @@ input, select, textarea {
 				font-size: 13pt;
 			}
 
+			#banner-logo {
+				width: 450px;
+				height: auto;
+			}
+
 		}
 
 		@media screen and (max-width: 1280px) {
 
 			body, input, select, textarea {
 				font-size: 12pt;
+			}
+
+			#banner-logo {
+				width: 350px;
+				height: auto;
 			}
 
 		}
@@ -131,6 +141,11 @@ input, select, textarea {
 			body, input, select, textarea {
 				font-size: 11pt;
 				letter-spacing: 0.0375em;
+			}
+
+			#banner-logo {
+				width: 250px;
+				height: auto;
 			}
 
 		}
