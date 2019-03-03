@@ -2113,6 +2113,10 @@ input, select, textarea {
 			max-width: 40%;
 		}
 
+		.image.left.portrait, .image.right.portrait {
+			max-width: 25%;
+		}
+
 			.image.left img, .image.right img {
 				width: 100%;
 			}
@@ -2680,7 +2684,7 @@ input, select, textarea {
 				border-radius: 0;
 				width: 55%;
 			}
-			
+
 			.spotlight .image.landscape img {
 				border-radius: 0;
 				width: 100%;
